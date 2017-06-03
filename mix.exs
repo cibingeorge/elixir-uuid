@@ -1,11 +1,11 @@
-defmodule UUID.Mixfile do
+defmodule ExUUID.Mixfile do
   use Mix.Project
 
   @version "1.1.7"
 
   def project do
-    [app: :uuid,
-     name: "UUID",
+    [app: :ex_uuid,
+     name: "ExUUID",
      version: @version,
      elixir: "~> 1.0",
      docs: [extras: ["README.md", "CHANGELOG.md"],
